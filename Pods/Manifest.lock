@@ -1,0 +1,41 @@
+PODS:
+  - CocoaLumberjack (2.4.0):
+    - CocoaLumberjack/Default (= 2.4.0)
+    - CocoaLumberjack/Extensions (= 2.4.0)
+  - CocoaLumberjack/Core (2.4.0)
+  - CocoaLumberjack/Default (2.4.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.4.0):
+    - CocoaLumberjack/Default
+  - InMobiSDK (6.0.0)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - SVGKit (2.0.1):
+    - CocoaLumberjack (~> 2.x)
+
+DEPENDENCIES:
+  - InMobiSDK
+  - Masonry
+  - MBProgressHUD
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.x`)
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 2.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: 29b55f9846b11d27fb22cf0ad164a4025de12c34
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
+  InMobiSDK: a026c7afa89750649e84d4b2b965b44b8a755ac2
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SVGKit: 2afbeaf2c2be4615476951284750c3ddb790d0c7
+
+PODFILE CHECKSUM: e9dea86692bba89bf69400665b5ae24a7c6f89b5
+
+COCOAPODS: 1.0.1
